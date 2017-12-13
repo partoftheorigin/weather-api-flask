@@ -23,3 +23,5 @@ example: http://127.0.0.1:5000/weather/filter?city=Bangalore&date=2017-12-13
 *No front end, APIs running in Postman.*
 
 *All APIs are RESTful*
+
+*Used an ORM : SQLALCHEMY instead of direct database queries.*
