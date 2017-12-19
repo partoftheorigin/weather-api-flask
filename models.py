@@ -162,8 +162,11 @@ def delete_report(id):
 
 
 def job_function():
-    report = get_weather(Bangalore, IN)
-    new_report = Weather(city=report['city'], country=report['country'], temperature=report['temperature'],
+    city = 'bangalore'
+    country = 'in'
+    report = get_weather(city, country)
+    
+    new_report = Weather(loc_id=int(str(City.query.filter_by(name = city, country = country).first()).strip('<City >')), temperature=report['temperature'],
                          date=report['date'], description=report['description'])
     db.session.add(new_report)
     db.session.commit()
