@@ -1,5 +1,5 @@
 # Weather API: Flask
-[![Build Status](https://travis-ci.org/partoftheorigin/clima.svg?branch=master)](https://travis-ci.org/partoftheorigin/clima)
+[![Build Status](https://travis-ci.org/partoftheorigin/clima.svg?branch=master)](https://travis-ci.org/partoftheorigin/clima) [![Coverage Status](https://coveralls.io/repos/github/partoftheorigin/clima/badge.svg?branch=master)](https://coveralls.io/github/partoftheorigin/clima?branch=master)
 
 An app, to give weather forecast for different cities
 
