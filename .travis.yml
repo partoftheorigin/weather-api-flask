@@ -5,5 +5,8 @@ install:
   - pip3 install flask
   - pip3 install flask_sqlalchemy
   - pip3 install python-dateutil
+  - pip3 install httplib2
+  - pip3 install json
+  - pip3 install apscheduler
 script:
   - python3 models.py
