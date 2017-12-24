@@ -18,7 +18,7 @@ An app, to give weather forecast for different cities
 #### Weather API:
 1. GET: get weather of all cities of last 5 days.
 add filter functionality to the api, where you should be able to filter by name of city, or date 
-example: http://127.0.0.1:5000/weather/filter?city=Bangalore&date=2017-12-13
+example: http://0.0.0.0:5000/weather/filter?city=Bangalore&date=2017-12-13
 2. DELETE: delete a particular weather report(by id)
 3. UPDATE: update a particular weather report(by id)
 
