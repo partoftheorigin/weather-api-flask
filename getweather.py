@@ -2,7 +2,7 @@ import json
 import httplib2
 
 
-weather_api_key = 'ce652ce44d3df1fd5yv66610bd929815bdb95'
+weather_api_key = 'ce652ce44d3df1fd510bd929815bdb95'
 
 
 def get_weather(city, country):
