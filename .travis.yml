@@ -8,4 +8,4 @@ install:
   - pip3 install httplib2
   - pip3 install apscheduler
 script:
-  - python3 models.py
+  - python3 getweather.py
