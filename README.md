@@ -1,4 +1,4 @@
-# Weather_API_Flask
+# Weather API: Flask
 [![Build Status](https://travis-ci.org/partoftheorigin/clima.svg?branch=master)](https://travis-ci.org/partoftheorigin/clima)
 
 An app, to give weather forecast for different cities
